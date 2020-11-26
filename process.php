@@ -27,8 +27,7 @@ $payment->save();
 
 
 
-//  var_dump($payment);
-echo json_encode(array('id'=>$payment->id,'estatus'=>$payment->status,'status_detail'=>$payment->status_detail,'description'=>$payment->description, 'live_mode'=>$payment->live_mode, 'collector_id'=>$payment->collector_id,'payment_method_id'=>$payment->payment_method_id ));
+ echo json_encode(array('id'=>$payment->id,'estatus'=>$payment->status,'status_detail'=>$payment->status_detail,'description'=>$payment->description, 'live_mode'=>$payment->live_mode, 'collector_id'=>$payment->collector_id,'payment_method_id'=>$payment->payment_method_id ));
 
 
 ?>
